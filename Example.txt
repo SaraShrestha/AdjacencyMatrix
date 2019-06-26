@@ -1,0 +1,38 @@
+* Graphs test file by Sara Shrestha
+* File: Example.txt
+weighted
+undirected
+begin
+A F B C D
+C F 2.6
+A B 2.3
+A D 6.2
+D C 5.5
+B D 4.8
+end
+hasEdge F C
+true
+countVertices
+5
+countEdges
+5
+isSparce
+false
+isDense
+false
+isConnected
+true
+isFullyConnected
+false
+deleteEdge B D
+true
+addVertex E
+true
+addEdge B E 1.9
+true
+deleteVertex F
+true
+printGraph
+true
+readGraph
+read
